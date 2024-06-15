@@ -1,0 +1,25 @@
+
+Installations:
+pip install openai streamlit
+pip install python-dotenv
+pip install langchain_nvidia_ai_endpoints
+pip install -U langchain-nvidia-ai-endpoints
+
+
+
+
+
+references used:
+1. https://blog.langchain.dev/nvidia-nim/
+
+
+Important links to remember:
+1. https://www.nvidia.com/en-us/ai-data-science/generative-ai/developer-contest-with-langchain/terms-and-conditions/
+2. https://www.nvidia.com/en-us/ai-data-science/generative-ai/developer-contest-with-langchain/
+3. https://blog.langchain.dev/nvidia-nim/
+4. https://python.langchain.com/v0.2/docs/integrations/providers/nvidia/
+
+Submission link:
+1. https://developer.nvidia.com/generative-ai-agents-contest-submission
+
+
