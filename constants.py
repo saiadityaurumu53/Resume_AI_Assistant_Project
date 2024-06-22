@@ -18,3 +18,10 @@ Let's start with a summary of the candidate's qualifications and experience. Wha
 hyde_template = """Even if you do not know the full answer, generate a one-paragraph hypothetical answer to the below question:
 
 {question}"""
+
+
+template = """Answer the question based only on the following context:
+{context}
+
+Question: {question}
+"""
