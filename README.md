@@ -1,7 +1,9 @@
 
-#Resume AI Assistant: Powered by NVIDIA and LangChain
+#Resume AI Assistant: Powered by NVIDIA and LangChain for "Generative AI Agents Developer Contest"
 
-Why and the main aim of the project? (Project Description)
+![alt text](image.png)
+
+Why and the main aim of the project? (Project Description):
 Many students who are studying the college and schools need to tailor their resume according to the respective job description and even though they have skills they, may not submit the perfect resume version and the "Resume AI Assistant" will help you do so by:
     1. Analyzing the summary of the skills and experiences if any you have mentioned in your resume
     2. Analyzing the Job description by Summarizing the key skills and other important requirements mentioned in the project.
@@ -51,11 +53,11 @@ Installations of the project: (Please use this installations after creating the 
 
 
 Usage Instructions:
-RAG Architecture instructions:
+Part I: RAG Architecture instructions:
 1. After starting the Streamlit application you can upload your resume in the file upload section in the PDF format.
 2. Hit the Train button and you can also see the chunks in which the Resume is divided into and trained in the Vector Database of FAISS
 3. Now, the local RAG Architecture is ready and you can chat with your resume i.e., you can summarize, ask about the details, etc
-AI Assitant to compare the JOB DESCRIPTION with the Resume to find out the matching criteria:
+Part II: AI Assitant to compare the JOB DESCRIPTION with the Resume to find out the matching criteria:
 4. Paste the Job descritption in the Job Description Text box and hit enter.
 5. We have two options: 
     1. Extract skills, requirements and experiance: This generates the summary of the skills, requirements and experiance
@@ -66,9 +68,8 @@ AI Assitant to compare the JOB DESCRIPTION with the Resume to find out the match
 Important Note: 2nd option "Analyze and Compare the Resume and Job Description" is dependent upon the "Extract skills, requirements and experiance" section so click both the buttons in order.
 
 
-
 Challenges faced during the project:
-1. LLMChain() is under deprecation so need to build using the |'s of the langchain
-2. Generating the first output of the LLM using streamlit
+1. Verificationof the prompt template accuracy.
+2. Generating the first output of the LLM using streamlit.
 
 

@@ -39,7 +39,7 @@ import os
 
 st.set_page_config(page_title="Chat With Your Resume: Powered by Nvidia NIM and LangChain")
 
-st.title("Resume AIAssistant: Powered by NVIDIA and LangChain")
+st.title("Resume AI Assistant: Powered by NVIDIA and LangChain")
 
 
 #FUNCTIONS FOR THE IMPLEMENTATION OF THE CHAT WITH YOUR RESUME USING "RAG"
