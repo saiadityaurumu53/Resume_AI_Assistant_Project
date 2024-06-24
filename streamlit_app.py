@@ -39,7 +39,7 @@ import os
 
 st.set_page_config(page_title="Chat With Your Resume: Powered by Nvidia NIM and LangChain")
 
-st.title("Resume chatter using Nvidia NIM and LangChain")
+st.title("Resume AIAssistant: Powered by NVIDIA and LangChain")
 
 
 #FUNCTIONS FOR THE IMPLEMENTATION OF THE CHAT WITH YOUR RESUME USING "RAG"
@@ -243,8 +243,8 @@ def main():
         st.session_state.JOB_DESC_TEXT = st.text_input("Job Description", "Enter Here ")
         st.write("The current Job Description is: ", st.session_state.JOB_DESC_TEXT)
 
-        if st.button("Analyze Resume and Job Description"):
-            with st.spinner("Creating Resume chain, Job desc chain and Analyzing both"):
+        if st.button("Extract skills, requirements and experiance summary of Resume and Job Description"):
+            with st.spinner("Creating Resume chain, Job desc chain and extracting"):
                 st.session_state.resume_chain = create_resume_chain()
                 st.session_state.job_desc_chain = create_job_desc_chain()
                 st.session_state.job_skills = st.session_state.job_desc_chain.invoke(st.session_state.JOB_DESC_TEXT)

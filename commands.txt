@@ -13,7 +13,7 @@ pip install faiss-cpu
 
 
 
-pip install openai 
+
 
 
 
