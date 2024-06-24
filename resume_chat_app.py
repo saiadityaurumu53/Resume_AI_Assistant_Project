@@ -49,6 +49,7 @@ def load_documents(URL_var):
     print("Loaded the documents in the menthod")
     return docs
 
+
 def create_vector_store(docs,nvidia_embeddings):
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
     documents = text_splitter.split_documents(docs)
