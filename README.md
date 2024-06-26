@@ -3,6 +3,10 @@
 
 ![alt text](image.png)
 
+# Two Parts of the Project
+1. "Chat with your Resume" using Retrieval Augmented Generation (RAG). (This functionality can be used on the right side Streamlit chatbot application)
+2. "Comparision of the Resume with Job Description". (This functionality can be used on the left side Side bar of the Streamlit application)
+
 ## Table of Contents
 1. [Project Aim and the Features](#project-aim-and-the-features)
 2. [Tech Stack used](#tech-stack-used)
