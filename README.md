@@ -70,7 +70,8 @@ Note: I have used windows OS along with the Conda for the virtual environment.
 Part I: RAG Architecture instructions:
 1. After starting the Streamlit application you can upload your resume in the file upload section in the PDF format.
 2. Hit the Train button and you can also see the chunks in which the Resume is divided into and trained in the Vector Database of FAISS
-3. Now, the local RAG Architecture is ready and you can chat with your resume i.e., you can summarize, ask about the details, etc
+3. Now, the local RAG Architecture is ready and you can chat with your resume i.e., you can summarize, ask about the details, etc.
+
 Part II: AI Assitant to compare the JOB DESCRIPTION with the Resume to find out the matching criteria:
 4. Paste the Job descritption in the Job Description Text box and hit enter.
 5. We have two options: 
