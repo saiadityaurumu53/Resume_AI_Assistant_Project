@@ -3,7 +3,17 @@
 
 ![alt text](image.png)
 
-## Project Description
+## Table of Contents
+1. [Project Aim and the Features](#project-aim-and-the-features)
+2. [Tech Stack used](#tech-stack-used)
+3. [Project category](#project-category-large-language-model--8b)
+4. [Project Setup and Installations](#project-setup-and-installations)
+5. [Installation Libraries](#installation-libraries)
+6. [Steps of how to use the project](#steps-of-how-to-use-the-project)
+7. [Important Note](#important-note)
+8. [Usage Example Ideas](#usage-example-ideas)
+
+## Project Aim and the Features
 Why and the main aim of the project? 
 Many students who are studying the college and schools need to tailor their resume according to the respective job description and even though they have skills they, may not submit the perfect resume version and the "Resume AI Assistant" will help you do so by:
 1. Analyzing the summary of the skills and experiences if any you have mentioned in your resume
@@ -14,7 +24,7 @@ Sometimes while filling an intenship application you may need to summarize certa
 4. For that you can use the Resume AI Chatter in the Chatbot part of the application where you can chat with your Resume.
 Note:  This feature is implemented using the RAG (retrieval-augmented generation) where your resume is trained and stored in the vector DB FAISS and then you can chat with it.
 
-## Tech Stack used:
+## Tech Stack used
 1. NVIDIA NIMs API catalog
 2. NVIDIA connectors within LangChain framework
 3. Langchain framework
@@ -25,7 +35,7 @@ Note:  This feature is implemented using the RAG (retrieval-augmented generation
 ## Project category: Large Language Model > 8B
 
 
-## Instructions to run this project:
+## Project Setup and Installations
 1. clone this project to a local folder and insert the Nvidia NIM API by creating from https://www.nvidia.com/en-us/ai/ and by creating a .env folder as mentioned in the example.
 Note: I have used mistralai/mixtral-8x22b-instruct-v0.1 Large Language Model.
 2. create a virtual environment: I have used conda 
@@ -42,7 +52,7 @@ To capture the local virtual environment use:
 Note: I have used windows OS along with the Conda for the virtual environment.
 
 
-## Installations of the project: (Please use this installations after creating the virtual environment if the )
+## Installation Libraries
 1. pip install langchain
 2. pip install langchain-community
 3. pip install python-dotenv
@@ -52,7 +62,7 @@ Note: I have used windows OS along with the Conda for the virtual environment.
 7. pip install faiss-cpu
 
 
-## Instructions to use the project:
+## Steps of how to use the project
 Part I: RAG Architecture instructions:
 1. After starting the Streamlit application you can upload your resume in the file upload section in the PDF format.
 2. Hit the Train button and you can also see the chunks in which the Resume is divided into and trained in the Vector Database of FAISS
@@ -65,7 +75,8 @@ Part II: AI Assitant to compare the JOB DESCRIPTION with the Resume to find out 
 6.  We can see the content of the Summary in the sidebar section
 7. The Analyzation and the comparision part is added in the chat section.
 
-### Important Note: 2nd option "Analyze and Compare the Resume and Job Description" is dependent upon the "Extract skills, requirements and experiance" section so click both the buttons in order.
+### Important Note
+In the 2nd Feature "Analyze and Compare the Resume and Job Description" is dependent upon the "Extract skills, requirements and experiance" section so click both the buttons in order.
 
 ## Usage Example Ideas
 1. Helps you tailor your resume according to the job description by getting a detailed comparison and mentioning any gaps or strong matches.
