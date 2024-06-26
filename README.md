@@ -7,6 +7,10 @@
 1. "Chat with your Resume" using Retrieval Augmented Generation (RAG). (This functionality can be used on the right side Streamlit chatbot application)
 2. "Comparision of the Resume with Job Description". (This functionality can be used on the left side Side bar of the Streamlit application)
 
+# Youtube Link
+https://youtu.be/25fQpBJG4pk?si=VRAua6BzjDLB7Jmw
+
+
 ## Table of Contents
 1. [Project Aim and the Features](#project-aim-and-the-features)
 2. [Tech Stack used](#tech-stack-used)
@@ -73,12 +77,12 @@ Part I: RAG Architecture instructions:
 3. Now, the local RAG Architecture is ready and you can chat with your resume i.e., you can summarize, ask about the details, etc.
 
 Part II: AI Assitant to compare the JOB DESCRIPTION with the Resume to find out the matching criteria:
-4. Paste the Job descritption in the Job Description Text box and hit enter.
-5. We have two options: 
-    1. Extract skills, requirements and experiance: This generates the summary of the skills, requirements and experiance
-    2. Analyze and Compare the Resume and Job Description: This will generate the detailed comparison and mention any gaps or strong matches.
-6.  We can see the content of the Summary in the sidebar section
-7. The Analyzation and the comparision part is added in the chat section.
+1. Paste the Job descritption in the Job Description Text box and hit enter.
+2. We have two options: 
+    a. Extract skills, requirements and experiance: This generates the summary of the skills, requirements and experiance
+    b. Analyze and Compare the Resume and Job Description: This will generate the detailed comparison and mention any gaps or strong matches.
+3.  We can see the content of the Summary in the sidebar section
+4. The Analyzation and the comparision part is added in the chat section.
 
 ### Important Note
 In the 2nd Feature "Analyze and Compare the Resume and Job Description" is dependent upon the "Extract skills, requirements and experiance" section so click both the buttons in order.
